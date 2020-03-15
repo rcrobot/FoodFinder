@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.foodfinder.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_editOptionsFragment"
+            app:destination="@id/editOptionsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_viewOptionsFragment"
+            app:destination="@id/viewOptionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editOptionsFragment"
+        android:name="com.example.foodfinder.EditOptionsFragment"
+        android:label="fragment_edit_options"
+        tools:layout="@layout/fragment_edit_options" />
+    <fragment
+        android:id="@+id/viewOptionsFragment"
+        android:name="com.example.foodfinder.ViewOptionsFragment"
+        android:label="fragment_view_options"
+        tools:layout="@layout/fragment_view_options" />
+</navigation>

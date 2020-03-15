@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">FoodFinder</string>
     <string name="welcome_text">Welcome! what would you like to do?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_fragment">MAIN FRAGMENT</string>
+    <string name="see_what_s_available">See what\'s available</string>
+    <string name="edit_listings">Edit Listings</string>
 </resources>
