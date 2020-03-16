@@ -9,13 +9,21 @@
         android:id="@+id/mainFragment"
         android:name="com.example.foodfinder.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
+        tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_mainFragment_to_editOptionsFragment"
-            app:destination="@id/editOptionsFragment" />
+            app:destination="@id/editOptionsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_mainFragment_to_viewOptionsFragment"
-            app:destination="@id/viewOptionsFragment" />
+            app:destination="@id/viewOptionsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/editOptionsFragment"

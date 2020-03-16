@@ -7,4 +7,6 @@
     <string name="main_fragment">MAIN FRAGMENT</string>
     <string name="see_what_s_available">See what\'s available</string>
     <string name="edit_listings">Edit Listings</string>
+    <string name="viewoptionsfragment">ViewOptionsFragment</string>
+    <string name="editoptionsfragment">EditOptionsFragment</string>
 </resources>
