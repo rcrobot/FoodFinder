@@ -6,7 +6,34 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="main_fragment">MAIN FRAGMENT</string>
     <string name="see_what_s_available">See what\'s available</string>
-    <string name="edit_listings">Edit Listings</string>
+    <string name="edit_listings">Add a listing</string>
     <string name="viewoptionsfragment">ViewOptionsFragment</string>
     <string name="editoptionsfragment">EditOptionsFragment</string>
+    <string-array name="buildings">
+        <item>Pritzker Science Center</item>
+        <item>Stuart Building</item>
+        <item>Keating</item>
+        <item>VanderCook</item>
+        <item>Kaplan</item>
+        <item>Rettaliata Engineering Center</item>
+        <item>Hermann Hall</item>
+        <item>Alumni Memorial Hall</item>
+        <item>Perlstein</item>
+        <item>Wishnick</item>
+        <item>MTCC</item>
+        <item>MSV</item>
+        <item>SSV</item>
+        <item>Gunsaulus</item>
+        <item>Galvin Library</item>
+        <item>Siegel</item>
+        <item>Crown</item>
+        <item>Kappa Phi Delta</item>
+        <item>Alpha Sigma Alpha</item>
+        <item>Triangle</item>
+        <item>Phi Kappa Epsilon (Skulls)</item>
+        <item>Alpha Sigma Epsilon</item>
+        <item>Delta Tau Delta</item>
+        <item>IIT Tower</item>
+        <item>Minerals and Metals Shop</item>
+    </string-array>
 </resources>
