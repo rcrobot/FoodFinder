@@ -11,7 +11,7 @@ import androidx.navigation.Navigation
 
 class MainFragment : Fragment(), View.OnClickListener {
     override fun onClick(v: View?){
-        when(v!!.id){
+        when (v!!.id) {
             R.id.viewOptionsButton -> navController.navigate(R.id.action_mainFragment_to_viewOptionsFragment)
             R.id.editOptionsButton -> navController.navigate(R.id.action_mainFragment_to_editOptionsFragment)
         }
@@ -33,3 +33,4 @@ class MainFragment : Fragment(), View.OnClickListener {
         view.findViewById<Button>(R.id.editOptionsButton).setOnClickListener(this)
     }
 }
+

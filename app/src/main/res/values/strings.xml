@@ -9,7 +9,14 @@
     <string name="edit_listings">Add a listing</string>
     <string name="viewoptionsfragment">ViewOptionsFragment</string>
     <string name="editoptionsfragment">EditOptionsFragment</string>
+    <string name="who_is_providing_ex_sigep">Who is providing? (ex. SigEp)</string>
+    <string name="what_type_of_food_ex_pizza">What type of food? (ex. pizza)</string>
+    <string name="room_number_e_x_129">Room number (e.x. 129)</string>
+    <string name="building">Building:</string>
+    <string name="add_a_new_listing">Add A New Listing</string>
+    <string name="submit">Submit</string>
     <string-array name="buildings">
+        <item>SELECT A BUILDING</item>
         <item>Pritzker Science Center</item>
         <item>Stuart Building</item>
         <item>Keating</item>

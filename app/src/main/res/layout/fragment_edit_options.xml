@@ -14,17 +14,20 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:hint="Room number (e.x. 129)"
+        android:hint="@string/room_number_e_x_129"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerBuilding" />
+        app:layout_constraintTop_toBottomOf="@+id/spinnerBuilding"
+        android:importantForAutofill="no" />
 
     <Spinner
         android:id="@+id/spinnerBuilding"
-        android:layout_width="379dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewBuilding" />
@@ -37,11 +40,12 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:hint="Who is providing? (ex. SigEp)"
+        android:hint="@string/who_is_providing_ex_sigep"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextFoodTyoe" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextFoodTyoe"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextFoodTyoe"
@@ -51,18 +55,19 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:hint="What type of food? (ex. pizza)"
+        android:hint="@string/what_type_of_food_ex_pizza"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextRoom" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextRoom"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/textViewBuilding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Building:"
+        android:layout_marginTop="64dp"
+        android:text="@string/building"
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -76,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Submit"
+        android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -86,7 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Add A New Listing"
+        android:text="@string/add_a_new_listing"
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="36sp"
         android:textStyle="bold"
